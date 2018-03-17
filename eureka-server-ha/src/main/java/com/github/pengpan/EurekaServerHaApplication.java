@@ -18,7 +18,7 @@ public class EurekaServerHaApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(EurekaServerHaApplication.class);
+        SpringApplication.run(EurekaServerHaApplication.class, args);
     }
 
     @Value("${server.port}")

@@ -13,6 +13,6 @@ public class ServerZipkinApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(ServerZipkinApplication.class);
+        SpringApplication.run(ServerZipkinApplication.class, args);
     }
 }

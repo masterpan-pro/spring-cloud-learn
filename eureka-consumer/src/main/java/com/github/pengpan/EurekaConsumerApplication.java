@@ -24,6 +24,6 @@ public class EurekaConsumerApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(EurekaConsumerApplication.class);
+        SpringApplication.run(EurekaConsumerApplication.class, args);
     }
 }
